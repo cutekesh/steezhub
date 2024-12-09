@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.hero {
+  background-image: url("/images/WhatsApp\ Image\ 2024-12-03\ at\ 6.35.04\ AM.jpeg");
+  background-size: cover;
+  padding: 17% 0;
+}
+
+.bi-cart4,
+.bi-person,
+.bi-caret-down-fill {
+  cursor: pointer;
+}
+
+.profile-dropdown a {
+  transition: 0.3s ease-in-out;
+  color: black;
+}
+
+.profile-dropdown a:hover {
+  background-color: gray;
+  color: white;
+}
+
+.profile-dropdown {
+  transform: scaleY(0);
+  transition: 0.5s ease-in-out;
+  transform-origin: top;
+}
+
+.profile-dropdown.akin {
+  transform: scaleY(1);
+}
+
+.categories p:hover {
+  background-color: gray;
+  color: white;
+}
+
+.categories p {
+  transition: 0.3s ease-in-out;
+  color: black;
+  cursor: pointer;
+}
+
+.categories {
+  transform: scaleY(0);
+  transition: 0.5s ease-in-out;
+  transform-origin: top;
+}
+.categories.akin {
+  transform: scaleY(1);
+}
+
+.bi-caret-down-fill {
+  transition: 0.5s ease-in-out;
+}
+
+.bi-caret-down-fill.akin {
+  transform: rotate(180deg);
+}
+
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
